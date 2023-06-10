@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "GPT新手营地VIP专属",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "GPT新手营地ChatGPT",
+  description: "GPT新手营地VIP专用的ChatGPT，请输入VIP专属密码",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "GPT新手营地VIP专属",
+    title: "GPT新手营地ChatGPT",
     statusBarStyle: "default",
   },
 };
